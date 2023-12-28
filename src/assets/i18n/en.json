@@ -1,0 +1,57 @@
+{
+  "navbar": {
+    "studentHub": "Student Hub",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "more": "More",
+    "changeLanguage": "Change Language"
+  },
+  "footer": {
+    "copyright": "Copyright"
+  },
+  "home": {
+    "registrationForm": "Registration Form",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "submit": "Submit",
+    "text": {
+      "welcome": {
+        "title": "Welcome to Our Community!",
+        "content": "We are thrilled to have you join our community of like-minded individuals. Registration is your gateway to a world of exciting opportunities, exclusive content, and meaningful connections. By becoming a member, you unlock a host of features designed to enhance your experience."
+      },
+      "whyRegister": {
+        "title": "Why Register with Us?",
+        "points": {
+          "point1": "Personalized Experience: Tailor your preferences and enjoy a personalized journey on our platform.",
+          "point2": "Exclusive Content: Gain access to members-only content, including articles, tutorials, and insider insights.",
+          "point3": "Connect with Others: Network and build relationships with fellow members who share your interests and passions.",
+          "point4": "Stay Informed: Receive updates, newsletters, and special announcements to stay informed about the latest happenings."
+        }
+      },
+      "howToRegister": {
+        "title": "How to Register:",
+        "steps": {
+          "step1": "Click on the \"Register\" button.",
+          "step2": "Fill in the required information, including your name, email, and a secure password.",
+          "step3": "Agree to our terms and conditions.",
+          "step4": "Click \"Submit\" to complete the registration process."
+        }
+      },
+      "privacyMatters": {
+        "title": "Your Privacy Matters:",
+        "content": "Rest assured, your privacy is of utmost importance to us. We adhere to strict security measures to protect your data and ensure a safe online environment."
+      },
+      "joinUs": {
+        "title": "Join us on this exciting journey!",
+        "callToAction": "Register now and unlock a world of possibilities.",
+        "contact": "If you have any questions or need assistance, feel free to contact our support team."
+      }
+    }
+
+  }
+}

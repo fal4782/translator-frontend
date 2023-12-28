@@ -1,0 +1,57 @@
+{
+  "navbar":{
+    "studentHub": "Centro Estudiantil",
+    "aboutUs": "Acerca de nosotros",
+    "contactUs": "Contáctenos",
+    "more": "Más",
+    "changeLanguage": "Cambiar Idioma"
+  },
+  "footer":{
+    "copyright": "Derechos de autor"
+  },
+  "home": {
+    "registrationForm": "Formulario de Inscripción",
+    "firstname": "Nombre",
+    "lastname": "Apellido",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "gender": "Género",
+    "male": "Masculino",
+    "female": "Femenino",
+    "submit": "Enviar",
+    "text": {
+      "welcome": {
+        "title": "¡Bienvenido a Nuestra Comunidad!",
+        "content": "Estamos encantados de que te unas a nuestra comunidad de individuos afines. El registro es tu puerta de entrada a un mundo de emocionantes oportunidades, contenido exclusivo y conexiones significativas. Al convertirte en miembro, desbloqueas una serie de funciones diseñadas para mejorar tu experiencia."
+      },
+      "whyRegister": {
+        "title": "¿Por qué registrarse con nosotros?",
+        "points": {
+          "point1": "Experiencia personalizada: Adapta tus preferencias y disfruta de un viaje personalizado en nuestra plataforma.",
+          "point2": "Contenido exclusivo: Accede a contenido exclusivo para miembros, como artículos, tutoriales e información privilegiada.",
+          "point3": "Conéctate con otros: Establece redes y construye relaciones con otros miembros que comparten tus intereses y pasiones.",
+          "point4": "Mantente informado: Recibe actualizaciones, boletines y anuncios especiales para estar al tanto de los últimos acontecimientos."
+        }
+      },
+      "howToRegister": {
+        "title": "Cómo Registrarse:",
+        "steps": {
+          "step1": "Haz clic en el botón \"Registrarse\".",
+          "step2": "Completa la información requerida, incluyendo tu nombre, correo electrónico y una contraseña segura.",
+          "step3": "Acepta nuestros términos y condiciones.",
+          "step4": "Haz clic en \"Enviar\" para completar el proceso de registro."
+        }
+      },
+      "privacyMatters": {
+        "title": "Tu privacidad es importante:",
+        "content": "Ten la seguridad de que tu privacidad es de suma importancia para nosotros. Nos adherimos a estrictas medidas de seguridad para proteger tus datos y garantizar un entorno en línea seguro."
+      },
+      "joinUs": {
+        "title": "Únete a nosotros en este emocionante viaje!",
+        "callToAction": "Regístrate ahora y descubre un mundo de posibilidades.",
+        "contact": "Si tienes alguna pregunta o necesitas ayuda, no dudes en contactar a nuestro equipo de soporte."
+      }
+    }
+    
+  }
+}

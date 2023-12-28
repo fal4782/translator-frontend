@@ -1,0 +1,108 @@
+<div class="form-container row w-100 mx-0">
+  <form
+    [formGroup]="registrationForm"
+    class="d-flex flex-column gap-4 col-10 col-sm-8 col-md-6 col-xl-4 my-5 mx-auto text-light"
+  >
+    <h2 class="text-center">{{ "home.registrationForm" | translate }}</h2>
+    <div class="form-group">
+      <label>{{ "home.firstname" | translate }}</label>
+      <input
+        formControlName="firstName"
+        type="text"
+        class="form-control mt-1"
+        [placeholder]="'home.firstname' | translate"
+      />
+    </div>
+    <div class="form-group">
+      <label>{{ "home.lastname" | translate }}</label>
+      <input
+        formControlName="lastName"
+        type="text"
+        class="form-control mt-1"
+        [placeholder]="'home.lastname' | translate"
+      />
+    </div>
+    <div class="form-group">
+      <label>{{ "home.email" | translate }}</label>
+      <input
+        formControlName="email"
+        type="email"
+        class="form-control mt-1"
+        [placeholder]="'home.email' | translate"
+      />
+    </div>
+    <div class="form-group">
+      <label>{{ "home.phone" | translate }}</label>
+      <input
+        formControlName="phone"
+        type="text"
+        class="form-control mt-1"
+        [placeholder]="'home.phone' | translate"
+      />
+    </div>
+    <div>
+      {{ "home.gender" | translate }}:
+      <div class="form-check form-check-inline ms-2">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="generOptions"
+          value="m"
+        />
+        <label class="form-check-label">{{ "home.male" | translate }}</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="generOptions"
+          value="f"
+        />
+        <label class="form-check-label">{{ "home.female" | translate }}</label>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary m-auto">
+      {{ "home.submit" | translate }}
+    </button>
+  </form>
+
+  <hr class="text-light" />
+
+  <div class="text-light p-5">
+    <h3 class="text-center mb-5">
+      {{ "home.text.welcome.title" | translate }}
+    </h3>
+
+    <p>{{ "home.text.welcome.content" | translate }}</p>
+
+    <h5>{{ "home.text.whyRegister.title" | translate }}</h5>
+
+    <ul>
+      <li>{{ "home.text.whyRegister.points.point1" | translate }}</li>
+      <li>{{ "home.text.whyRegister.points.point2" | translate }}</li>
+      <li>{{ "home.text.whyRegister.points.point3" | translate }}</li>
+      <li>{{ "home.text.whyRegister.points.point4" | translate }}</li>
+    </ul>
+
+    <h5>{{ "home.text.howToRegister.title" | translate }}</h5>
+
+    <ul>
+      <li>{{ "home.text.howToRegister.steps.step1" | translate }}</li>
+      <li>{{ "home.text.howToRegister.steps.step2" | translate }}</li>
+      <li>{{ "home.text.howToRegister.steps.step3" | translate }}</li>
+      <li>{{ "home.text.howToRegister.steps.step4" | translate }}</li>
+    </ul>
+
+    <h5>{{ "home.text.privacyMatters.title" | translate }}</h5>
+
+    <p>{{ "home.text.privacyMatters.content" | translate }}</p>
+
+    <p>
+      {{ "home.text.joinUs.title" | translate }}
+      {{ "home.text.joinUs.callToAction" | translate }}
+      <br />
+      {{ "home.text.joinUs.contact" | translate }}
+    </p>
+  </div>
+</div>
